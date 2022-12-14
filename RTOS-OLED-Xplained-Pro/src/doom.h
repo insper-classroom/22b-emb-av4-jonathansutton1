@@ -219,8 +219,4 @@ const int melody[] = {
 	NOTE_B3, -16, NOTE_G3, -16, NOTE_E3, -16, NOTE_B2, -16, NOTE_E3, -16, NOTE_G3, -16, NOTE_C4, -16, NOTE_B3, -16, NOTE_G3, -16, NOTE_B3, -16, NOTE_G3, -16, NOTE_E3, -16,
 };
 
-#define tempo 225;
-int notes = sizeof(melody) / sizeof(melody[0]) / 2;
-int wholenote = (60000 * 4) / tempo;
-
 #endif // DOOM_H_
